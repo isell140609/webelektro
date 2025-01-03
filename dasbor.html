@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama Peminjaman Barang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e0f7fa;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+        h1 {
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 30px;
+        }
+        a {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        a:hover {
+            background-color: #004d40;
+        }
+    </style>
+    <script>
+        function goToForm() {
+            window.location.href = "peminjangan.html"; 
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang</h1>
+        <p>Di Sistem Peminjaman Barang Lab Elektro. Klik tombol di bawah untuk melanjutkan ke form peminjaman.</p>
+        <a href="pinjam.html" onclick="goToForm()" class="button">Mulai Peminjaman</a>
+    </div>
+</body>
+</html>
